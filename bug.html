@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Incorrect use of innerHTML, attempting to insert an object directly
+    document.getElementById("myDiv").innerHTML = { message: "Hello, world!" }; 
+  </script>
+</body>
+</html>
